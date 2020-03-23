@@ -1,7 +1,7 @@
 # trivium
 Python implementation of the trivium stream cipher
 
-<img src="trivium_image.png" alt="example" width="500" height="400" />
+<img src="trivium_image.png" alt="example" width="400" height="400" />
 
 Python class for the implementation of the Trivium synchronous stream
 cipher. The Trivium cipher is initialized by writing an 80-bit key and
