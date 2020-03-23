@@ -4,6 +4,10 @@
 '''
 Python class for the implementation of the Trivium synchronous stream
 cipher. 
+
+Author: Patrick Kelly
+Email: patrickyunen@gmail.com
+Last updated: March 21, 2020
 '''
 
 import numpy as np
