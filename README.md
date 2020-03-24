@@ -16,7 +16,7 @@ wrapper should be installed in the same directory.
 
 ## Usage:
 
-trivium.py -n <number of output bits> -k <key string> -i <IV string> -b [binary output]
+trivium.py -n <number_of_output_bits> -k <key_string> -i <IV_string> -b [binary output]
 
 ### Example:
 trivium.py -n 256 -k bunnicula
