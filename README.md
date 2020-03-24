@@ -19,12 +19,16 @@ wrapper should be installed in the same directory.
 trivium.py -n <number of output bits> -k <key string> -i <IV string> -b [binary output]
 
 ### Example:
-trivium.py -n 32 -k bunnicula
+trivium.py -n 256 -k bunnicula
 
 ### Output:
-Bitstream: 0xe268530e
-IV: 0x712a7a6439ef8dfe2be6
+Bitstream: 0x6bbbcdbb37dcffae5b9613087f17003994390df7e8d6116c3cb7d89180c9c2f6
+
+IV: 0x2c496362c5976dd074ec
+
 Key: 0x62756e6e6963756c61
+
+
 
 The specifications for the Trivium cipher are available at:
 https://www.ecrypt.eu.org/stream/ciphers/trivium/trivium.pdf
