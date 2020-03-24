@@ -10,7 +10,7 @@ Last Update: 03-20-20
 
 import argparse
 import secrets
-from triv import Trivium
+from trivium import Trivium
 
 
 def get_random_bits(bitnumber):
