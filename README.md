@@ -1,4 +1,4 @@
-#trivium
+# trivium
 Python implementation of the trivium stream cipher
 
 <img src="trivium_image.png" alt="example" width="400" height="400" />
@@ -14,14 +14,14 @@ key, and IV is hexadecimal; using the binary switch (-b) will produce binary out
 To implement trivium as a command-line tool, triv.py and the trivium.py
 wrapper should be installed in the same directory.
 
-##Usage:
+## Usage:
 
 trivium.py -n <number of output bits> -k <key string> -i <IV string> -b [binary output]
 
-###Example:
+### Example:
 trivium.py -n 32 -k bunnicula
 
-###Output:
+### Output:
 Bitstream: 0xe268530e
 IV: 0x712a7a6439ef8dfe2be6
 Key: 0x62756e6e6963756c61
