@@ -20,10 +20,10 @@ wrapper should be installed in the same directory.
 
 ## Usage:
 
-trivium.py -n <number_of_output_bits> -k <key_string> -i <IV_string> -b [binary output]
+main.py -n <number_of_output_bits> -k <key_string> -i <IV_string> -b [binary output]
 
 ### Example:
-trivium.py -n 256 -k bunnicula
+main.py -n 256 -k bunnicula
 
 ### Output:
 Bitstream: 0x6bbbcdbb37dcffae5b9613087f17003994390df7e8d6116c3cb7d89180c9c2f6
