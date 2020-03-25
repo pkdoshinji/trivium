@@ -79,10 +79,6 @@ def main():
     print(f'IV: {output_IV}')
     print(f'Key: {output_key}')
 
-    # for j in range(0,len(output),8):
-    #     byte = output[j:j+8]
-    #     print(int(byte,2))
-
 
 if __name__ == '__main__':
     main()
